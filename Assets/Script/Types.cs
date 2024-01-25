@@ -18,7 +18,7 @@ public static class Types
         // All weak and resistance types
         float[,] effectivenessTable = new float[,]
         {
-            /*          Normal  Water   Fire    Grass   */
+            /*            Normal  Water   Fire    Grass   */
             /* Normal */ {1.0f,   1.0f,   1.0f,   1.0f},
             /* Water  */ {1.0f,   0.5f,   2.0f,   0.5f},
             /* Fire   */ {1.0f,   0.5f,   0.5f,   2.0f},

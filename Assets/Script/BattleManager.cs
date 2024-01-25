@@ -8,15 +8,16 @@ public class BattleManager : MonoBehaviour
 
     void Start()
     {
-        int seed = 12345;
+        int seed = 123456789;
         PokemonGen.SetSeed(seed);
 
         Ash ash = GameManager.AshInstance;
         Misty misty = GameManager.MistyInstance;
 
-        RandomizeMonsters(ash, misty);
+        Debug.Log("Seed used : " + seed);
 
-        Debug.Log("Seed used : " +seed);
+
+        RandomizeMonsters(ash, misty);
     }
 
     void RandomizeMonsters(Ash ash, Misty misty)
